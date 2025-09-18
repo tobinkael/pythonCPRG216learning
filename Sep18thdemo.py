@@ -27,3 +27,15 @@ print(d,type(d))
 # casting - if manual: EXPLICIT casting
 # promoting/demoting - the more precise or the
 # larger amount of memory allocated is "higher"
+
+num_as_text = "43" #this cannot be used as a variable
+
+num_as_num = int(num_as_text) #converting string(text) to num
+print(num_as_text,type(num_as_text))
+print(num_as_num,type(num_as_num))
+
+num = 3
+num_f = float(3)
+num2 = 3.4
+num2_i = int(num2)
+num2_as_text = str(num2)
