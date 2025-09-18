@@ -39,3 +39,10 @@ num_f = float(3)
 num2 = 3.4
 num2_i = int(num2)
 num2_as_text = str(num2)
+
+
+
+#using input function....Note input function always return a string
+
+yob = input("Please Enter Your Rear of Birth\n")
+print("your age is",int(2025)-int(yob))
