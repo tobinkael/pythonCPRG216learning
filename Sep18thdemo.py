@@ -46,3 +46,69 @@ num2_as_text = str(num2)
 
 yob = input("Please Enter Your Rear of Birth\n")
 print("your age is",int(2025)-int(yob))
+
+
+#Calculate the area of any square
+
+
+width = input("Enter the width:")
+length = input("Enter The Length:")
+
+
+result = int(width) * int(length)
+print(result)
+
+
+#print function
+    #working with a separator
+print("Hello", "Twitter World")
+ # this will print Hello Twitter World
+print("Hello", "Twitter World", sep=",")
+ # this will print Hello, Twitter World
+print("Hello", "Twitter World", sep=",", end=".")
+ # this will print Hello, Twitter World.
+print("Hello,\ttwitter world") 
+ # this will print Hello,   twitter world
+print("Hello, \nTwitter World")
+ # this will print Hello,
+ #                 Twitter World
+ #If you want to print a "\" without triggering the escape characters use 
+ #  \\
+ # (\") to print [,] (\') to print [']
+
+
+
+#Precedence Rules<<<<<<<<<<<<<<<<<<<<<<<<<
+
+expression = 3+4*0-300+12/3
+
+print(expression)
+
+expression2 = 4/2*3
+
+print(expression2)
+
+# in expressions, follow bedmas unless equal ranks, then left to right
+
+# More about assignments
+
+x = 3
+x = x + 5
+print(x)
+
+#increases X by 5
+
+#can we shorthand this expression
+
+x += 5 # this is equivalent to x = x + 5
+#other examples of this same idea
+print(x)
+x -= 3 # x-2
+print(x)
+x *= 4 # x*2
+print(x)
+x **= 4 #x**2
+print(x)
+
+
+
