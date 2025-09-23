@@ -126,3 +126,63 @@ else:
 # one or more statements ( Is a must if you use else)
 
 
+# if/else works fine if we have only two conditions
+# for example :
+
+print("Welcome to the grade system program")
+grade = int(input("Please enter your grade"))
+
+if grade >= 90:
+    lettergrade = 'a'
+elif grade >= 80:
+    lettergrade = 'b'
+elif grade >= 70:
+    lettergrade = 'c'
+elif grade >= 60:
+    lettergrade = 'd'
+else:
+    lettergrade = 'f'
+print ("Your letter grade is", lettergrade)
+
+#elif is ELSE IF statements, used when you need multiple else if
+# statements for a if statement
+
+# ::::::if else form:::::::
+# "if (keyword, is a must)"
+# boolean/logical (is a must)
+# : is a must
+# indentation (must have)
+# one or more statements of any type
+# one or more of the follinw:
+    # elif (optional)
+    #condition (Mandatory if you have elif)
+    # : mandatory if elif
+    # 
+# non indented else (optional)
+# ":" colon (is a must after else)
+# needs indentation
+
+
+print("Welcome to the quadratic equation solver")
+print("Please enter three numbers, a, b, c")
+
+a = float(input("\n"))
+b = float(input("\n"))
+c = float(input("\n"))
+x1 =- 0
+x2 =- 0
+if a == 0:
+    x1 = -b/c
+    x2 = -b/c
+else: 
+    if b**2 >= 4*a*c:
+        x1 = ( -b + (b**2 - 4*a*c)** 0.5)/(2*a)
+        x2 = ( -b + (b**2 - 4*a*c)** 0.5)/(2*a)
+    else:
+        x1 = None
+        x2 = None
+print("The solution to this problem is", x1, x2)
+if x1 == None:
+    print("There is no solution in the real domain.")
+else:
+    print("There is no solution :(")
